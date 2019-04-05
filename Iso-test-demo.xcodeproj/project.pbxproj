@@ -17,6 +17,7 @@
 		4B9EAEE7225720750083FCF3 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EAEE6225720750083FCF3 /* Login.swift */; };
 		4B9EAEE9225720E70083FCF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EAEE8225720E70083FCF3 /* LoginViewController.swift */; };
 		4B9EAEEB2257211B0083FCF3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EAEEA2257211B0083FCF3 /* Login.storyboard */; };
+		4BE6359022572B64005FA534 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6358F22572B64005FA534 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		4B9EAEE6225720750083FCF3 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		4B9EAEE8225720E70083FCF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4B9EAEEA2257211B0083FCF3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		4BE6358F22572B64005FA534 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				4B9EAEE6225720750083FCF3 /* Login.swift */,
 				4B9EAEE8225720E70083FCF3 /* LoginViewController.swift */,
 				4B9EAEEA2257211B0083FCF3 /* Login.storyboard */,
+				4BE6358F22572B64005FA534 /* MainViewController.swift */,
 			);
 			path = "Iso-test-demo";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				4B9EAEE7225720750083FCF3 /* Login.swift in Sources */,
 				4B9EAEB922571A0E0083FCF3 /* ViewController.swift in Sources */,
 				4B9EAEB722571A0E0083FCF3 /* AppDelegate.swift in Sources */,
+				4BE6359022572B64005FA534 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
