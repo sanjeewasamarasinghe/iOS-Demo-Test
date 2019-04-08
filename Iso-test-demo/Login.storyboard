@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9mE-AE-Eij">
-                                <rect key="frame" x="0.0" y="182" width="375" height="301"/>
+                                <rect key="frame" x="0.0" y="134" width="375" height="301"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <segue destination="Zrq-ft-89u" kind="embed" id="bkP-oL-hiP"/>
