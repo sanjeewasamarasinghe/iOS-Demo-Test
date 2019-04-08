@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
     
 
     @IBAction func btnNext(_ sender: Any) {
-       self.performSegue(withIdentifier: "mainNext", sender: nil)
+       self.performSegue(withIdentifier: "MainNext", sender: nil)
     }
     /*
     // MARK: - Navigation
