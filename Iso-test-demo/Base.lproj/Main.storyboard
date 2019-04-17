@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--HOME-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Iso_test_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HOME" id="BYZ-38-t0r" customClass="MainViewController" customModule="Iso_test_demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="tXh-ji-Ydl"/>
                     <connections>
                         <outlet property="btnNext" destination="Et1-vl-IPE" id="2uS-j7-UJN"/>
                         <outlet property="btnSingIn" destination="QDh-qo-oSR" id="FsJ-gG-JRa"/>
@@ -48,7 +49,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1072.8" y="133.5832083958021"/>
         </scene>
         <!--Login-->
         <scene sceneID="p73-Lx-8Q4">
@@ -56,7 +57,7 @@
                 <viewControllerPlaceholder storyboardName="Login" id="AlJ-h1-YHs" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTR-9y-AO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="943" y="138"/>
+            <point key="canvasLocation" x="1880.8" y="137.6311844077961"/>
         </scene>
         <!--Singin-->
         <scene sceneID="ACL-ZY-xM3">
@@ -64,7 +65,7 @@
                 <viewControllerPlaceholder storyboardIdentifier="Singin" storyboardName="Singin" id="cT5-If-wVA" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Ia-rB-qpb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="946" y="438"/>
+            <point key="canvasLocation" x="1884.8" y="437.18140929535235"/>
         </scene>
     </scenes>
 </document>
