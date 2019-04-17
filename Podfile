@@ -8,7 +8,7 @@ target 'Iso-test-demo' do
   # Pods for Iso-test-demo
 
   # Pods for logInApp
-	pod 'Alamofire'
+	pod 'Firebase'
 	pod 'SwiftyJSON'
 	pod 'Firebase/Core'
 	pod 'Firebase/Auth'

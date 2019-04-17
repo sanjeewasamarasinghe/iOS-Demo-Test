@@ -2,6 +2,8 @@ PODS:
   - Alamofire (4.8.1)
   - AlamofireImage (3.5.0):
     - Alamofire (~> 4.8)
+  - Firebase (5.19.0):
+    - Firebase/Core (= 5.19.0)
   - Firebase/Auth (5.19.0):
     - Firebase/CoreOnly
     - FirebaseAuth (= 5.4.1)
@@ -87,6 +89,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - AlamofireImage (~> 3.5)
+  - Firebase
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
@@ -132,6 +135,6 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 89122a47332607bb134229bd0af9b7785466209d
+PODFILE CHECKSUM: c9791e329eb717eb2d62cd3ba58ed6d9bc12c9dc
 
 COCOAPODS: 1.6.1
