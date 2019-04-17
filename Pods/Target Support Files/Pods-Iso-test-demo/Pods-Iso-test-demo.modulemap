@@ -1,0 +1,6 @@
+framework module Pods_Iso_test_demo {
+  umbrella header "Pods-Iso-test-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
