@@ -27,17 +27,28 @@
                                     <action selector="btnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27c-Tr-Tyn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDh-qo-oSR">
+                                <rect key="frame" x="149" y="250" width="98" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SingIn&gt;&gt;"/>
+                                <connections>
+                                    <action selector="singIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fI9-gP-h1l"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="btnNext" destination="Et1-vl-IPE" id="2uS-j7-UJN"/>
+                        <outlet property="btnSingIn" destination="QDh-qo-oSR" id="FsJ-gG-JRa"/>
                         <segue destination="AlJ-h1-YHs" kind="presentation" identifier="MainNext" id="zgy-Wl-T0i"/>
+                        <segue destination="cT5-If-wVA" kind="show" identifier="SingIn" id="JJs-x9-OCe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
         <!--Login-->
         <scene sceneID="p73-Lx-8Q4">
@@ -46,6 +57,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gTR-9y-AO3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="943" y="138"/>
+        </scene>
+        <!--Singin-->
+        <scene sceneID="ACL-ZY-xM3">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Singin" storyboardName="Singin" id="cT5-If-wVA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Ia-rB-qpb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="946" y="438"/>
         </scene>
     </scenes>
 </document>

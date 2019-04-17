@@ -7,17 +7,39 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import GoogleSignIn
 
-class MainViewController: UIViewController {
-
+class MainViewController: UIViewController ,GIDSignInUIDelegate{
+   
+    override func viewWillAppear(_ animated: Bool) {
+        AppTempData.userHandleApp=Auth.auth().addStateDidChangeListener{(auth,user)in
+            if user == nil{
+                self.performSegue(withIdentifier: "MainNext", sender: nil)
+            }else{
+                self.performSegue(withIdentifier: "SingIn", sender: nil)
+            }
+    }
+    
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        Auth.auth().removeStateDidChangeListener(AppTempData.userHandleApp!)
+    }
     @IBOutlet weak var btnNext: UIButton!
+    @IBOutlet weak var btnSingIn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        GIDSignIn.sharedInstance()?.uiDelegate = self
     }
     
-
+    @IBAction func singIn(_ sender: Any) {
+        self.performSegue(withIdentifier: "SingIn", sender: nil)
+    }
+    
     @IBAction func btnNext(_ sender: Any) {
        self.performSegue(withIdentifier: "MainNext", sender: nil)
     }
