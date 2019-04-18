@@ -229,10 +229,10 @@
             </objects>
             <point key="canvasLocation" x="3711" y="-388"/>
         </scene>
-        <!--View Controller-->
+        <!--Sing View Controller-->
         <scene sceneID="Md4-mS-4Rw">
             <objects>
-                <viewController id="6ty-El-Z33" sceneMemberID="viewController">
+                <viewController id="6ty-El-Z33" customClass="SingViewController" customModule="Iso_test_demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EJ7-Uc-nis">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -258,11 +258,18 @@
                                 <state key="normal" title="SingIn">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="SingIn:" destination="6ty-El-Z33" eventType="touchDownRepeat" id="NdI-F6-hYv"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.86525648229999996" green="1" blue="0.6330319606" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="3me-9X-F8y"/>
                     </view>
+                    <connections>
+                        <outlet property="txtEmail" destination="v19-PL-EqU" id="IGF-en-7m0"/>
+                        <outlet property="txtPassWord" destination="EgS-s8-NFx" id="mHL-4o-Lks"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uHQ-ax-bR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -22,6 +22,19 @@ class SingViewController: UIViewController {
     
     @IBAction func SingIn(_ sender: Any) {
         
+        Auth.auth().createUser(withEmail: self.txtEmail.text!, password: self.txtPassWord.text! ){
+            (user,error)in
+            if error != nil {
+                let alert = UIAlertController(title: "Singin Error", message: error?.localizedDescription, preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title:"Click",style:.default,handler:nil))
+                self.present(alert, animated: true, completion: nil)
+                
+            }else{
+                self.dismiss(animated: true, completion: nil)
+            }
+            
+        }
+        
     }
     
     /*

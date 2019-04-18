@@ -10,37 +10,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Sing View Controller-->
+        <!--Sing In Out View Controller-->
         <scene sceneID="2Gk-SU-4Sn">
             <objects>
-                <viewController id="cPe-PQ-6cx" customClass="SingViewController" customModule="Iso_test_demo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cPe-PQ-6cx" customClass="singInOutViewController" customModule="Iso_test_demo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bkb-bf-QHJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="U07-f5-ogB">
-                                <rect key="frame" x="74" y="144" width="244" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="PassWord" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fmH-mW-9OY">
-                                <rect key="frame" x="84" y="182" width="244" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="49U-fN-HaL">
                                 <rect key="frame" x="188" y="298" width="85" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.72909087750000001" green="0.83523724919999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="SingIn">
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="SingOut">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="SingIn:" destination="cPe-PQ-6cx" eventType="touchUpInside" id="bVJ-lx-Vdi"/>
+                                    <action selector="SingOut:" destination="cPe-PQ-6cx" eventType="touchUpInside" id="2fC-D1-SUp"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -48,10 +34,6 @@
                         <viewLayoutGuide key="safeArea" id="FIx-33-uD2"/>
                     </view>
                     <navigationItem key="navigationItem" id="ysj-Jc-DqX"/>
-                    <connections>
-                        <outlet property="txtEmail" destination="U07-f5-ogB" id="aXr-pP-USY"/>
-                        <outlet property="txtPassWord" destination="fmH-mW-9OY" id="1g6-jJ-6S7"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kDT-14-F70" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
