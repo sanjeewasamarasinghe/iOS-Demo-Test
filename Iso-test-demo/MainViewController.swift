@@ -36,6 +36,8 @@ class MainViewController: UIViewController ,GIDSignInUIDelegate{
         GIDSignIn.sharedInstance()?.uiDelegate = self
     }
     
+    
+    
     @IBAction func singIn(_ sender: Any) {
         self.performSegue(withIdentifier: "SingIn", sender: nil)
     }
