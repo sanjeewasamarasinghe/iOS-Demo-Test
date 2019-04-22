@@ -21,8 +21,10 @@
 		4B9EAEE9225720E70083FCF3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B9EAEE8225720E70083FCF3 /* LoginViewController.swift */; };
 		4B9EAEEB2257211B0083FCF3 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9EAEEA2257211B0083FCF3 /* Login.storyboard */; };
 		4BE6359022572B64005FA534 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE6358F22572B64005FA534 /* MainViewController.swift */; };
+		4BE7889E226DA9B90025EB33 /* SingInLog.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7889D226DA9B90025EB33 /* SingInLog.storyboard */; };
 		4BEA557D2268B3E4009540D9 /* SingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA557C2268B3E3009540D9 /* SingViewController.swift */; };
 		4BEA557F2269083A009540D9 /* singInOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA557E2269083A009540D9 /* singInOutViewController.swift */; };
+		4BF16023226A02C6007624ED /* Login2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF16022226A02C6007624ED /* Login2ViewController.swift */; };
 		FD7F2D80D72F3368B8F63CF9 /* Pods_Iso_test_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4697FDE8464DEF7BAE416FDA /* Pods_Iso_test_demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +67,10 @@
 		4B9EAEE8225720E70083FCF3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4B9EAEEA2257211B0083FCF3 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		4BE6358F22572B64005FA534 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4BE7889D226DA9B90025EB33 /* SingInLog.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SingInLog.storyboard; sourceTree = "<group>"; };
 		4BEA557C2268B3E3009540D9 /* SingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingViewController.swift; sourceTree = "<group>"; };
 		4BEA557E2269083A009540D9 /* singInOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singInOutViewController.swift; sourceTree = "<group>"; };
+		4BF16022226A02C6007624ED /* Login2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login2ViewController.swift; sourceTree = "<group>"; };
 		908A1D9CCBC8479CB8C160C7 /* Pods-Iso-test-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iso-test-demo.debug.xcconfig"; path = "Target Support Files/Pods-Iso-test-demo/Pods-Iso-test-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		FFB0FA916EE6A965217FCF3F /* Pods-Iso-test-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Iso-test-demo.release.xcconfig"; path = "Target Support Files/Pods-Iso-test-demo/Pods-Iso-test-demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -145,6 +149,8 @@
 				4B613D1F22673F2D00E50224 /* Singin.storyboard */,
 				4BEA557C2268B3E3009540D9 /* SingViewController.swift */,
 				4BEA557E2269083A009540D9 /* singInOutViewController.swift */,
+				4BF16022226A02C6007624ED /* Login2ViewController.swift */,
+				4BE7889D226DA9B90025EB33 /* SingInLog.storyboard */,
 			);
 			path = "Iso-test-demo";
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				4B9EAEBE22571A1F0083FCF3 /* Assets.xcassets in Resources */,
 				4B613D2022673F2D00E50224 /* Singin.storyboard in Resources */,
 				4B9EAEBC22571A0E0083FCF3 /* Main.storyboard in Resources */,
+				4BE7889E226DA9B90025EB33 /* SingInLog.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +408,7 @@
 				4B9EAEE7225720750083FCF3 /* Login.swift in Sources */,
 				4B9EAEB922571A0E0083FCF3 /* ViewController.swift in Sources */,
 				4BEA557D2268B3E4009540D9 /* SingViewController.swift in Sources */,
+				4BF16023226A02C6007624ED /* Login2ViewController.swift in Sources */,
 				4B9EAEB722571A0E0083FCF3 /* AppDelegate.swift in Sources */,
 				4BE6359022572B64005FA534 /* MainViewController.swift in Sources */,
 				4BEA557F2269083A009540D9 /* singInOutViewController.swift in Sources */,

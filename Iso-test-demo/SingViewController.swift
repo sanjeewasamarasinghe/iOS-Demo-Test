@@ -12,17 +12,17 @@ import Firebase
 
 class SingViewController: UIViewController {
 
-    @IBOutlet weak var txtEmail: UITextField!
-    @IBOutlet weak var txtPassWord: UITextField!
+   
+    @IBOutlet weak var emailtxt: UITextField!
+    @IBOutlet weak var passwordtxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func SingIn(_ sender: Any) {
-        
-        Auth.auth().createUser(withEmail: self.txtEmail.text!, password: self.txtPassWord.text! ){
+    @IBAction func singInLog(_ sender: Any) {
+        Auth.auth().createUser(withEmail: self.emailtxt.text!, password: self.passwordtxt.text! ){
             (user,error)in
             if error != nil {
                 let alert = UIAlertController(title: "Singin Error", message: error?.localizedDescription, preferredStyle: .alert)
@@ -36,6 +36,7 @@ class SingViewController: UIViewController {
         }
         
     }
+  
     
     /*
     // MARK: - Navigation
