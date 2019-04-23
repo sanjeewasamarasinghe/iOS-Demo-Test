@@ -29,7 +29,7 @@
                                     <action selector="btnLogIn:" destination="uE5-NR-iKe" eventType="touchUpInside" id="lka-ox-2XL"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-12-ZIX">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Jh-12-ZIX" customClass="GIDSignInButton">
                                 <rect key="frame" x="71" y="345" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
